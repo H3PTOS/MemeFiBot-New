@@ -10,32 +10,32 @@ const settings = {
   API_HASH: process.env.API_HASH || "",
 
   AUTO_APPLY_TURBO: process.env.AUTO_APPLY_TURBO
-    ? process.env.AUTO_APPLY_TURBO.toLowerCase() === "true"
+    ? process.env.AUTO_APPLY_TURBO.toLowerCase() === "false"
     : true,
 
   AUTO_APPLY_ENERGY: process.env.AUTO_APPLY_ENERGY
-    ? process.env.AUTO_APPLY_ENERGY.toLowerCase() === "true"
+    ? process.env.AUTO_APPLY_ENERGY.toLowerCase() === "false"
     : true,
 
   AUTO_UPGRADE_DAMAGE: process.env.AUTO_UPGRADE_DAMAGE
-    ? process.env.AUTO_UPGRADE_DAMAGE.toLowerCase() === "true"
+    ? process.env.AUTO_UPGRADE_DAMAGE.toLowerCase() === "false"
     : true,
 
   AUTO_UPGRADE_RECHARGE: process.env.AUTO_UPGRADE_RECHARGE
-    ? process.env.AUTO_UPGRADE_RECHARGE.toLowerCase() === "true"
+    ? process.env.AUTO_UPGRADE_RECHARGE.toLowerCase() === "false"
     : true,
 
   AUTO_UPGRADE_ENERGY: process.env.AUTO_UPGRADE_ENERGY
-    ? process.env.AUTO_UPGRADE_ENERGY.toLowerCase() === "true"
+    ? process.env.AUTO_UPGRADE_ENERGY.toLowerCase() === "false"
     : true,
 
   AUTO_BUY_TAPBOT: process.env.AUTO_BUY_TAPBOT
-    ? process.env.AUTO_BUY_TAPBOT.toLowerCase() === "true"
+    ? process.env.AUTO_BUY_TAPBOT.toLowerCase() === "false"
     : true,
 
   AUTO_CLAIM_AND_START_TAPBOT: process.env.AUTO_CLAIM_AND_START_TAPBOT
     ? process.env.AUTO_CLAIM_AND_START_TAPBOT.toLowerCase() === "true"
-    : true,
+    : false,
 
   AUTO_COMPLETE_TASKS: process.env.AUTO_COMPLETE_TASKS
     ? process.env.AUTO_COMPLETE_TASKS.toLowerCase() === "true"
